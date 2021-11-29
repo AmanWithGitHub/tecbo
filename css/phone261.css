@@ -1,0 +1,126 @@
+ /* Navigation */
+ #navbar{
+    flex-direction: column;
+}
+
+#navbar ul li  a{
+    font-size: 0.6rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+
+}
+ 
+ 
+ /* Home section  */
+
+ #home{
+    height: 590px; 
+    padding: 3px 28px;
+
+ }
+
+#home h1{
+    font-size: 1.9rem;
+}
+
+#home::before{
+   height: 715px;
+
+}
+
+#home p{
+   font-size: 17px;
+
+}
+
+#home .btn a{
+    font-size: 12px;
+}
+#home .btn {
+    padding: -4px 37px;
+
+}
+
+
+#services{
+    flex-direction: column;
+    margin: 44px;
+ }
+
+
+ #services .box {
+    padding: 10px;
+    margin: 0px -44px;
+    margin-bottom: 23px;
+    margin-left: -37px;
+}
+
+#services .box iframe {
+   width: 145px;
+   height: 115px;
+   
+} 
+
+ #services h2{
+   font-size: larger;
+ }
+ 
+ #services p{
+   font-weight: bold;
+   display: inline;
+
+ }
+
+
+
+ #clients{
+    flex-wrap: wrap;
+
+}
+
+#clients img {
+    width: 107px;
+    padding: 6px;
+    height: 91px;
+}
+
+.btn:hover{
+    background-color: rgba(58, 54, 54, 0.253);  
+}
+
+.btn a:hover{
+    color: white;
+}
+
+/* .googleform p{
+    font-weight: bolder;
+    font-size: 15px;
+} */
+
+.googleform a {
+    font-size: 16px;
+    padding: 9px 1px;
+}
+
+footer .center{
+    font-size: 0.8rem;
+}
+
+#contact .h-primary {
+    font-size: 2.8rem;
+    color: white;
+}
+
+.googleform p {
+    margin: -29px;
+    color: #e1a90ce8;
+    margin-top: 21px;
+    margin-bottom: 17px;
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+    color: #ffe10bd9;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
